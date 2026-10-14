@@ -1,0 +1,68 @@
+.container {
+  min-height: 100vh;
+  background: #eaf4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+}
+
+.form-card {
+  width: 400px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px #999;
+}
+
+h2 {
+  text-align: center;
+  color: #176b87;
+  margin-bottom: 5px;
+}
+
+p {
+  text-align: center;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  margin: 12px 0 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 11px;
+  box-sizing: border-box;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+}
+
+textarea {
+  height: 100px;
+}
+
+small {
+  color: red;
+  display: block;
+  margin-top: 4px;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  border: 0;
+  border-radius: 6px;
+  background: #176b87;
+  color: white;
+  font-size: 16px;
+}
+
+button:disabled {
+  background: #aaa;
+}
