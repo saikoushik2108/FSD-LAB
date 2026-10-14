@@ -1,0 +1,30 @@
+
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #eee;
+}
+
+.box {
+    background: white;
+    padding: 25px;
+    margin: 50px auto;
+    width: 350px;
+    border-radius: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}

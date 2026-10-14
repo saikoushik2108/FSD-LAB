@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<main class="container">
+
+    <h1>Weather Forecast Dashboard</h1>
+
+    <form id="searchForm" class="search-box">
+        <input
+            type="text"
+            id="cityInput"
+            placeholder="Enter city name"
+            aria-label="City name"
+            autocomplete="off"
+            required
+        >
+
+        <button id="searchBtn" type="submit">Search</button>
+    </form>
+
+    <p id="message" role="status" aria-live="polite"></p>
+
+    <section id="weather" class="hidden" aria-live="polite">
+
+        <div class="current-weather">
+
+            <h2 id="location"></h2>
+
+            <div class="temperature">
+                <span id="temperature"></span>°C
+            </div>
+
+            <p id="description"></p>
+
+            <div class="details">
+
+                <div>
+                    <strong>Humidity</strong>
+                    <span id="humidity"></span>%
+                </div>
+
+                <div>
+                    <strong>Wind</strong>
+                    <span id="wind"></span> km/h
+                </div>
+
+            </div>
+
+        </div>
+
+        <h2>5-Day Forecast</h2>
+
+        <div id="forecast" class="forecast"></div>
+
+    </section>
+
+</main>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
